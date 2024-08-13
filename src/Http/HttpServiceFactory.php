@@ -90,6 +90,7 @@ class HttpServiceFactory implements ServiceFactoryInterface
             'Content-Type' => 'application/json',
             'User-Agent' => $this->getUserAgent(),
             'dhl-api-key' => $authStorage->getApplicationToken(),
+            'Accept-Language' => 'de-DE'
         ];
 
         $client = new PluginClient(
