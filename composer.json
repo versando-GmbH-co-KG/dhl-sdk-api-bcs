@@ -1,5 +1,5 @@
 {
-    "name": "dhl/sdk-api-bcs",
+    "name": "dhl/sdk-api-bcs-versando",
     "description": "DHL business customer shipping API",
     "keywords": [
         "php",
